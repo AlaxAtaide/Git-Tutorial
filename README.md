@@ -9,7 +9,7 @@ O Git é uma poderosa ferramenta de controle de versão amplamente usada por des
 
 ## Criando um Repositório
 
-Primeiro, você precisará criar um repositório Git para seu projeto. No GitHub, vá para a página do seu perfil, na aba "**Repositories**", clique em "**New**" para criar um novo repositório. Após preencher com informações do Repositório, clique em "**Create Repository**" pra finalizar! Po fim, anote a URL do repositório criado, pois você a usará mais tarde.
+Primeiro, você precisará criar um repositório Git para seu projeto. No GitHub, vá para a página do seu perfil, na aba "**Repositories**", clique em "**New**" para criar um novo repositório. Após preencher com informações do Repositório, clique em "**Create Repository**" ao finalizar! Por fim, anote a URL do repositório criado, pois você a usará mais tarde.
 ![image](https://github.com/AlaxAtaide/Git-Tutorial/assets/100983643/4a202674-a877-44f5-83db-29dcdd88d354)
 
 Após ter o repositório criado, vamos para os próximos passos para adicionar o seu projeto dentro dele! ⬇
