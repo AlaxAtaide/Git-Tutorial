@@ -7,6 +7,13 @@ Aqui ensino como utilizar o **Git**, em um passo a passo! **Me siga em meu Githu
 
 O Git é uma poderosa ferramenta de controle de versão amplamente usada por desenvolvedores para atualizar e gerenciar as alterações em seus projetos de software. Este tutorial fornece um guia passo a passo para começar a usar o Git e trabalhar com repositórios Git no GitHub.
 
+## Criando um Repositório
+
+Primeiro, você precisará criar um repositório Git para seu projeto. No GitHub, vá para a página do seu perfil, na aba "**Repositories**", clique em "**New**" para criar um novo repositório. Após preencher com informações do Repositório, clique em "**Create Repository**" pra finalizar! Po fim, anote a URL do repositório criado, pois você a usará mais tarde.
+![image](https://github.com/AlaxAtaide/Git-Tutorial/assets/100983643/4a202674-a877-44f5-83db-29dcdd88d354)
+
+Após ter o repositório criado, vamos para os próximos passos para adicionar o seu projeto dentro dele! ⬇
+
 ## Configuração Inicial
 
 Primeiramente, antes de tudo, devemos abrir nosso projeto dentro do Git Bash (Terminal do Git). Dessa forma:
@@ -20,11 +27,7 @@ git config --global user.email "seuemail@gmail.com"
 git config --global user.name "Seu Nome"
 ```
 
-Agora que você está configurado, vamos começar!
-
-## Criando um Repositório
-
-Primeiro, você precisará criar um repositório Git para seu projeto. No GitHub, vá para a página do seu perfil e clique em "New" para criar um novo repositório. Anote a URL do repositório criado, pois você a usará mais tarde.
+Agora que seu usuário está configurado, vamos começar!
 
 ## Inicializando o Git
 
