@@ -1,36 +1,98 @@
+
 # Git-Tutorial
-Aqui ensino como utilizar o Git, em um passo a passo!
 
-Git comandos: 
-Lógica: Primeiro de tudo precisamos entender a estrutura do git, primeiramente antes de tudo, abrimos nosso projeto dentro do Git Bash (Terminal do Git), dessa forma: 
- ![image](https://github.com/AlaxAtaide/Git-Tutorial/assets/100983643/ba903ee0-7075-4ef0-a6cd-4e09542f71d5)
+Aqui ensino como utilizar o Git, em um passo a passo! Me siga em meu Github para novas atualizações de comandos e novidades! 🧙	👌
 
-APÓS ISSO, tudo que fizermos a seguir será colocar nossos arquivos no nosso primeiro controle de versão, isso é, iremos pegar os arquivos que queremos levar para o Github, e iremos alocar no servidor do Git, isso é, iremos listar tudo o que queremos, antes de subir para o repositório em questão. Após dizermos ao Git com os comandos utilizados, o que queremos de fato, quais arquivos queremos enviar, o que é para ser ignorado ou não no projeto etc. Após tudo isso feito, estará tudo armazenado no Git, com todos os passos que fizemos antes, agora é só dar nossos commit para realmente enviar esses arquivos para o servidor do GitHub, e depois disso, podemos assim usar por fim o “Git Push” que vai de fato enviar seu projeto/alterações feitas, para o seu repositório do Github de fato.
-PRIMEIROS PASSOS: 
-Caso você ainda não tenha configurado seu git, execute os seguintes comandos:
-Git config --global user.email “meuemail@gmail.com”
-Git config --global user.name “Seu Nome”
+## Introdução
 
-OBS: Isso é para que fique registrado seu usuário no Git, assim quando você fizer alguma alteração no repositório, estará registrado quem fez tal ação, com o nome/email do usuário.
-SEGUNDO PASSO: 
-Você deve ir primeiramente ao seu GitHub, ir ao repositório que deseja trabalhar e copiar a URL do repositório, feito isso, ir novamente ao GitBash/Terminal, e executar o seguinte comando com essa URL que você acabou de copiar, segue exemplo:
-“Git remote add origin https://github.com/Usuario/Project” 
+O Git é uma poderosa ferramenta de controle de versão amplamente usada por desenvolvedores para rastrear e gerenciar as alterações em seus projetos de software. Este tutorial fornece um guia passo a passo para começar a usar o Git e trabalhar com repositórios Git no GitHub.
+
+## Configuração Inicial
+
+Primeiramente, antes de tudo, devemos abrir nosso projeto dentro do Git Bash (Terminal do Git). Dessa forma:
+![image](https://github.com/AlaxAtaide/Git-Tutorial/assets/100983643/ba903ee0-7075-4ef0-a6cd-4e09542f71d5)
+
+Feito isso, agora antes de começar, você deve configurar suas informações de usuário no Git. Isso permitirá que o Git registre suas alterações com seu nome e email. Execute os seguintes comandos:
+
+```shell
+git config --global user.email "seuemail@gmail.com"
+git config --global user.name "Seu Nome"
+```
+
+Agora que você está configurado, vamos começar!
+
+## Criando um Repositório
+
+Primeiro, você precisará criar um repositório Git para seu projeto. No GitHub, vá para a página do seu perfil e clique em "New" para criar um novo repositório. Anote a URL do repositório criado, pois você a usará mais tarde.
+
+## Inicializando o Git
+
+Em seu terminal (Git Bash que haviamos aberto com nosso projeto no passo anterior), e execute o seguinte comando para inicializar o Git:
+
+```shell
+git init
+```
+
+Isso criará um repositório Git vazio em seu projeto.
+
+## Adicionando Arquivos
+
+Agora você pode adicionar arquivos ao controle de versão do Git.  Se você deseja adicionar todos os arquivos do projeto de uma única vez, use:
+
+```shell
+git add .
+```
+Dessa forma adicionará todo o seu projeto ao repositório sem precisar adicionar um por um! 😏 
+
+Em casos que você precise adicionar um arquivo **específico**, use o seguinte comando:
+
+```shell
+git add MeuArquivo.java
+```
+Dessa forma você irá adicionar somente esse arquivo ao repositório!
+
+
+## Verificando o Status
+
+Para verificar o status dos arquivos em seu projeto, execute o seguinte comando:
+
+```shell
+git status
+```
+
+Isso mostrará quais arquivos foram modificados e estão prontos para serem confirmados.
+
+## Fazendo um Commit
+
+Agora, é hora de fazer um commit para registrar suas alterações. Use o seguinte comando:
+
+```shell
+git commit -m "Mensagem do Commit"
+```
+
+Certifique-se de fornecer uma mensagem descritiva que explique as alterações realizadas neste commit.
+
+## Conectando ao Repositório Remoto
+
+Você precisará conectar seu repositório local ao repositório remoto no GitHub. Use a URL do repositório que você criou anteriormente com o seguinte comando:
+
+```shell
+git remote add origin https://github.com/Usuario/Project
+```
 ![image](https://github.com/AlaxAtaide/Git-Tutorial/assets/100983643/3ee96ed9-e43f-4526-bde6-33f18e3cba61)
 
- 
+## Enviando as Alterações
 
-Comandos iniciais:
+Agora, você pode enviar suas alterações para o repositório remoto no GitHub:
 
-“git init”** – Comando para iniciar o git em seu projeto/aplicação.
-“git add “MeuArquivo.java”” – Comando para adicionar um arquivo específico do seu projeto ao controle de versão, (caso queira adicionar todos os arquivos do seu projeto uma única vez, segue o próximo passo, da pág 2).
-“git status” – Comando para verificar o status da aplicação/comando anterior.
+```shell
+git push -u origin master
+```
 
-OBS: Como na maioria dos casos já queremos enviar todo o projeto para o nosso repositório, utilizamos mais o “git add .” que você verá logo a seguir...
+Isso enviará seus commits para o GitHub, onde seu código será armazenado no repositório correspondente.
 
-“git add .” – Comando para adicionar todo o projeto (todos os arquivos do seu projeto de uma única vez) no controle de versão.
-“git commit -m “primeiro commit”” – Assim como ao salvar um arquivo que foi editado, um commit registra alterações em um ou mais arquivos no seu Branch.
-OBS: Este comando é de extrema importância, pois é ele que registra a primeira versão do seu projeto, e outras versões, então a cada mudança feita, você precisa dar o commit para criar um registro da nova versão, sempre utilizando as aspas “”, para dizer o que você está registrando com aquele commit. Esse (-m “primeiro commit”), é a mensagem do seu registro, “-m” significa mensagem. 
-“commit -m add git” – Comando para fazer o “POST” o envio do projeto/alterações feitas nele, para o servidor de aplicação (Github).
-“Git push –set-upstream origin master” 
-Agora precisamos dizer ao git qual repositório queremos trabalhar, ele irá te pedir para logar em sua conta do Github que você quer trabalhar nesse caso, e pedirá para escolher qual o repositório que será trabalhado, veja só:
+Agora você está pronto para começar a trabalhar com o Git e o GitHub. Continue a criar novos commits para atualizar e gerenciar seu projeto. Este tutorial é um guia inicial, e há muito mais a aprender sobre o Git.
 
+```
+Espero que este tutorial passo a passo atenda às suas necessidades.
+E claro, lembre-se de me seguir para apoiar atitudes como essa! logo menos trago mais tutoriais!! 😉💯
