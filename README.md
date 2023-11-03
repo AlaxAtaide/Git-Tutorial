@@ -1,16 +1,17 @@
 
 # Git-Tutorial
 
-Aqui ensino como utilizar o Git, em um passo a passo! Me siga em meu Github para novas atualizações de comandos e novidades! 🧙	👌
+Aqui ensino como utilizar o **Git**, em um passo a passo! **Me siga em meu Github para novas atualizações de comandos e novidades!** 🧙	👌
 
 ## Introdução
 
-O Git é uma poderosa ferramenta de controle de versão amplamente usada por desenvolvedores para rastrear e gerenciar as alterações em seus projetos de software. Este tutorial fornece um guia passo a passo para começar a usar o Git e trabalhar com repositórios Git no GitHub.
+O Git é uma poderosa ferramenta de controle de versão amplamente usada por desenvolvedores para atualizar e gerenciar as alterações em seus projetos de software. Este tutorial fornece um guia passo a passo para começar a usar o Git e trabalhar com repositórios Git no GitHub.
 
 ## Configuração Inicial
 
 Primeiramente, antes de tudo, devemos abrir nosso projeto dentro do Git Bash (Terminal do Git). Dessa forma:
-![image](https://github.com/AlaxAtaide/Git-Tutorial/assets/100983643/ba903ee0-7075-4ef0-a6cd-4e09542f71d5)
+![280385981-ba903ee0-7075-4ef0-a6cd-4e09542f71d5](https://github.com/AlaxAtaide/Git-Tutorial/assets/100983643/5a0086da-fcf5-4223-b6de-80b41754a48b)
+
 
 Feito isso, agora antes de começar, você deve configurar suas informações de usuário no Git. Isso permitirá que o Git registre suas alterações com seu nome e email. Execute os seguintes comandos:
 
