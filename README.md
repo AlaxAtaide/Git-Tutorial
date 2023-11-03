@@ -31,7 +31,7 @@ Agora que seu usuário está configurado, vamos começar!
 
 ## Inicializando o Git
 
-Em seu terminal (Git Bash que haviamos aberto com nosso projeto no passo anterior), e execute o seguinte comando para inicializar o Git:
+Em seu terminal (Git Bash que haviamos aberto com nosso projeto no passo anterior), execute o seguinte comando para inicializar o Git:
 
 ```shell
 git init
@@ -92,6 +92,8 @@ Agora, você pode enviar suas alterações para o repositório remoto no GitHub:
 ```shell
 git push -u origin master
 ```
+
+(Após isso é provavel que apareça uma tela de Login do Github! logue sua conta que será trabalhado, após isso o comando deve funcionar).
 
 Isso enviará seus commits para o GitHub, onde seu código será armazenado no repositório correspondente.
 
