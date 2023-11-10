@@ -3,6 +3,8 @@
 
 Aqui ensino como utilizar o **Git**, em um passo a passo! **Me siga em meu Github para novas atualizações de comandos e novidades!** 🧙	👌
 
+### Download necessário do Git (Caso ainda não tenha): https://git-scm.com/downloads 
+
 Lembrando! aqui irei ensinar a fazer tudo pelo terminal do **Git**, o "Git Bash"! mas todo o procedimento explicado aqui, você também poderá usar no terminal da IDE a qual está desenvolvendo o projeto, como vscode, IntelliJ, etc... São os mesmos comandos, o mesmo processo!
 
 ## Introdução
