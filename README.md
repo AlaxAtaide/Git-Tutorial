@@ -1,5 +1,5 @@
 
-# Git-Tutorial![GIT](https://img.shields.io/badge/--0D1117?style=for-the-badge&logo=GIT&labelColor=0D1117)&nbsp;
+# Git Tutorial![GIT](https://img.shields.io/badge/--0D1117?style=for-the-badge&logo=GIT&labelColor=0D1117)&nbsp;
 
 Aqui ensino como utilizar o **Git**, em um passo a passo! **Me siga em meu Github para novas atualizações de comandos e novidades!** 🧙	👌
 
