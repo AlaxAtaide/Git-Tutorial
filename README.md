@@ -93,8 +93,6 @@ git status
 
 Isso mostrará quais arquivos foram modificados e estão prontos para serem confirmados.
 
-
-
 ## Fazendo um Commit
 
 Agora, é hora de fazer um commit para registrar suas alterações. Use o seguinte comando:
@@ -117,6 +115,7 @@ git remote add origin https://github.com/Usuario/Project
 ## Enviando as Alterações
 
 Como pode ver no seu Github, dentro do seu repositório. Podemos ter duas branches, temos por padrão a "Main" e a "Master" que podemos criar com o comando **" git push -u origin master "**. Devemos escolher qual das duas branches queremos que fique armazenado nosso projeto!
+
 ![image](https://github.com/AlaxAtaide/Git-Tutorial/assets/100983643/f2c4c181-8c92-4a7b-b834-eaae352a0ce8)
 
 ### Mas o que exatamente é uma Branch?
