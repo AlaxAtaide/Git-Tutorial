@@ -3,6 +3,8 @@
 
 Aqui ensino como utilizar o **Git**, em um passo a passo! **Me siga em meu Github para novas atualizações de comandos e novidades!** 🧙	👌
 
+Lembrando! aqui irei ensinar a fazer tudo pelo terminal do Git, o "Git Bash"! mas todo o procedimento explicado aqui, você também poderá usar no terminal da IDE a qual está desenvolvendo o projeto, como vscode, IntelliJ, etc...
+
 ## Introdução
 
 O Git é uma poderosa ferramenta de controle de versão amplamente usada por desenvolvedores para atualizar e gerenciar as alterações em seus projetos de software. Este tutorial fornece um guia passo a passo para começar a usar o Git e trabalhar com repositórios Git no GitHub.
