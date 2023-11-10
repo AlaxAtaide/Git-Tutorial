@@ -124,12 +124,12 @@ Uma **"branch"** é uma ramificação, no **Git** **é como uma linha separada**
 
 Sabendo disso, agora você pode enviar suas alterações para o repositório remoto no GitHub, apenas escolha para qual branche é de sua escolha:
 
-#### Enviando as Alterações para a branche Master
+#### Enviando as Alterações para a branch Master
 ```shell
 git push -u origin master
 ```
 
-#### Enviando as Alterações para a branche principal, "Main"
+#### Enviando as Alterações para a branch principal, "Main"
 ```shell
 git push -u origin main
 ```
