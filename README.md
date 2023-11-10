@@ -39,6 +39,33 @@ git init
 
 Isso criará um repositório Git vazio em seu projeto.
 
+## Ignorando arquivos/pastas do projeto não utilizáveis
+
+#### Antes de irmos para o passo de adicionar arquivos, o ideal é primeiro informar quais arquivos do nosso projeto não queremos levar para o repositório.
+
+Para dizer ao GitHub que você não quer que algum arquivo ou pasta do seu projeto seja incluso no repositório do Github, você pode criar um arquivo ".gitignore". Neste arquivo você pode dizer exatamente os arquivos ou pastas que não serão enviados ao repositório!
+
+### **Primeiramente crie o arquivo ".gitignore" dentro do seu projeto:**
+```shell
+nano .gitignore
+```
+
+### **Após a criação do arquivo ".gitignore" liste os arquivos ou pastas que deseja ignorar:**
+
+![image](https://github.com/AlaxAtaide/Git-Tutorial/assets/100983643/7658da44-d582-4ac6-885e-b3dbdb34e5c4)
+
+Feito isso pressione **CTRL + X**, irá aparecer uma mensagem **"Save modified buffer?"**, digite **"y"** e dê enter, ao fazer isso será criado o arquivo **".gitignore"** com os arquivos/pastas que você deseja ignorar! Prontinho, agora quando for feito novos commits do seu projeto estes arquivos dentro do ".gitignore" não serão inclusos! 
+
+![image](https://github.com/AlaxAtaide/Git-Tutorial/assets/100983643/cd8d2d3d-b196-4eee-a0ce-0508ec60cfae)
+
+#### • Comando para verificar quais arquivos ou pastas estão sendo ignorados (caso queira verificar pelo próprio terminal):
+
+```shell
+git check-ignore -v *
+```
+
+Feito todos esses passos, vamo prosseguir e finalmente adicionar os arquivos do nosso projeto ao repositório!
+
 ## Adicionando Arquivos
 
 Agora você pode adicionar arquivos ao controle de versão do Git.  Se você deseja adicionar todos os arquivos do projeto de uma única vez, use:
@@ -65,6 +92,8 @@ git status
 ```
 
 Isso mostrará quais arquivos foram modificados e estão prontos para serem confirmados.
+
+
 
 ## Fazendo um Commit
 
