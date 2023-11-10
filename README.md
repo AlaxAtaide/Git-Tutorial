@@ -42,7 +42,7 @@ Isso criará um repositório Git vazio em seu projeto.
 ## Ignorando arquivos/pastas do projeto não utilizáveis
 
 #### Antes de irmos para o passo de adicionar arquivos, o ideal é primeiro informar quais arquivos do nosso projeto não queremos levar para o repositório.
-
+                                                                                                                                              
 Para dizer ao GitHub que você não quer que algum arquivo ou pasta do seu projeto seja incluso no repositório do Github, você pode criar um arquivo ".gitignore". Neste arquivo você pode dizer exatamente os arquivos ou pastas que não serão enviados ao repositório!
 
 ### **Primeiramente crie o arquivo ".gitignore" dentro do seu projeto:**
@@ -116,15 +116,28 @@ git remote add origin https://github.com/Usuario/Project
 
 ## Enviando as Alterações
 
-Agora, você pode enviar suas alterações para o repositório remoto no GitHub:
+Como pode ver no seu Github, dentro do seu repositório. Podemos ter duas branches, temos por padrão a "Main" e a "Master" que podemos criar com o comando **" git push -u origin master "**. Devemos escolher qual das duas branches queremos que fique armazenado nosso projeto!
+![image](https://github.com/AlaxAtaide/Git-Tutorial/assets/100983643/f2c4c181-8c92-4a7b-b834-eaae352a0ce8)
 
+### Mas o que exatamente é uma branche?
+
+Uma **"branch"** é uma ramificação, no **Git** **é como uma linha separada** de desenvolvimento em um projeto de software. Pense nisso como um **caminho isolado** onde **você pode fazer alterações no código sem afetar diretamente o trabalho principal**. Quando as mudanças em uma **branch** são testadas e estão prontas, elas podem ser combinadas de volta à "branch" principal, chamada de **"master"** ou **"main"**, para incorporar essas alterações ao projeto geral. Isso permite que diferentes partes do projeto evoluam independentemente antes de serem unidas.
+
+Sabendo disso, agora você pode enviar suas alterações para o repositório remoto no GitHub, apenas escolha para qual branche é de sua escolha:
+
+#### Enviando as Alterações para a branche Master
 ```shell
 git push -u origin master
 ```
 
+#### Enviando as Alterações para a branche principal, "Main"
+```shell
+git push -u origin main
+```
+
 (Após isso é provavel que apareça uma tela de Login do Github! logue sua conta que será trabalhado, após isso o comando deve funcionar).
 
-Isso enviará seus commits para o GitHub, onde seu código será armazenado no repositório correspondente.
+#### Isso enviará seus commits para o GitHub, onde seu código será armazenado no repositório correspondente.
 
 Agora você está pronto para começar a trabalhar com o Git e o GitHub. Continue a criar novos commits para atualizar e gerenciar seu projeto. Este tutorial é um guia inicial, e há muito mais a aprender sobre o Git.
 
