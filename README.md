@@ -3,7 +3,7 @@
 
 Aqui ensino como utilizar o **Git**, em um passo a passo! **Me siga em meu Github para novas atualizações de comandos e novidades!** 🧙	👌
 
-Lembrando! aqui irei ensinar a fazer tudo pelo terminal do Git, o "Git Bash"! mas todo o procedimento explicado aqui, você também poderá usar no terminal da IDE a qual está desenvolvendo o projeto, como vscode, IntelliJ, etc...
+Lembrando! aqui irei ensinar a fazer tudo pelo terminal do **Git**, o "Git Bash"! mas todo o procedimento explicado aqui, você também poderá usar no terminal da IDE a qual está desenvolvendo o projeto, como vscode, IntelliJ, etc... São os mesmos comandos, o mesmo processo!
 
 ## Introdução
 
@@ -45,7 +45,7 @@ Isso criará um repositório Git vazio em seu projeto.
 
 #### Antes de irmos para o passo de adicionar arquivos, o ideal é primeiro informar quais arquivos do nosso projeto não queremos levar para o repositório.
                                                                                                                                               
-Para dizer ao GitHub que você não quer que algum arquivo ou pasta do seu projeto seja incluso no repositório do Github, você pode criar um arquivo ".gitignore". Neste arquivo você pode dizer exatamente os arquivos ou pastas que não serão enviados ao repositório!
+Para dizer ao Git que você não quer que algum arquivo ou pasta do seu projeto seja incluso no repositório do Github, você pode criar um arquivo ".gitignore". Neste arquivo você pode dizer exatamente os arquivos ou pastas que não serão enviados ao repositório!
 
 ### **Primeiramente crie o arquivo ".gitignore" dentro do seu projeto:**
 ```shell
