@@ -119,7 +119,7 @@ git remote add origin https://github.com/Usuario/Project
 Como pode ver no seu Github, dentro do seu repositório. Podemos ter duas branches, temos por padrão a "Main" e a "Master" que podemos criar com o comando **" git push -u origin master "**. Devemos escolher qual das duas branches queremos que fique armazenado nosso projeto!
 ![image](https://github.com/AlaxAtaide/Git-Tutorial/assets/100983643/f2c4c181-8c92-4a7b-b834-eaae352a0ce8)
 
-### Mas o que exatamente é uma branche?
+### Mas o que exatamente é uma Branch?
 
 Uma **"branch"** é uma ramificação, no **Git** **é como uma linha separada** de desenvolvimento em um projeto de software. Pense nisso como um **caminho isolado** onde **você pode fazer alterações no código sem afetar diretamente o trabalho principal**. Quando as mudanças em uma **branch** são testadas e estão prontas, elas podem ser combinadas de volta à "branch" principal, chamada de **"master"** ou **"main"**, para incorporar essas alterações ao projeto geral. Isso permite que diferentes partes do projeto evoluam independentemente antes de serem unidas.
 
